@@ -169,12 +169,10 @@ section {
 #home {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     height: 80vh;
     margin: 0 10rem;
     margin-bottom: 2rem;
-    padding-top: 17vh;
 }
 
 
@@ -182,7 +180,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem;
     max-width: 100%; 
     height: auto;
     margin: auto;
@@ -196,7 +193,7 @@ section {
 }
 
 .home-pic {
-    border-radius: 25%;
+    border-radius: 50%;
 }
 
 .section-text {
