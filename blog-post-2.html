@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+        body {
+            line-height: 1.6;
+        }
+
+        section p {
+            margin-bottom: 25px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 30%;
+            max-width: 50%;
+            height: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="static-nav">
+        <div class="logo">Trisha Minela</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Trisha Minela</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="index.html#blog" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <p class="section-text-p1"> Blog Post 2 </p>
+        <h1 class="title">New Job as a Research Assistant</h1>
+        <div class="image-container">
+        </div>
+        <div class="text-container">
+            <p>
+                Navigating life as an international student turned out to be more challenging than I anticipated. The initial excitement overshadowed the reality that I wouldn't be returning home for the next four years; I needed to transform my new environment into a home. Securing employment became crucial for self-financing, and it was imperative to find a source of enjoyment to alleviate the stress, worry, and homesickness that inevitably crept in. Transitioning from a tourism-focused student to delving into Computer Science, my initial inclination was towards becoming a tour guide – a role that promised variety, outdoor engagement, networking opportunities, and unique connections.
+            </p>
+            <p>
+However, my eagerness to align my work with my academic pursuits led me to explore new opportunities. I saw a research assistant role for Computer Science. My mindset was I’ll inquire and see if I am fit. I did so, and on the spot I was offered the role. I won’t lie I didn’t know what I would “research”, but to my surprise it was exactly what I was looking for. As a research assistant in Computer Science, my responsibilities involved updating an app, implementing changes, maintaining an up-to-date database, and even proposing new features. It was what I needed to learn concepts hands-on whilst learning in class.Undoubtedly, it presented challenges, and there were moments of frustration, because it showed me how much I don’t know. However, one thing I know is that I am wiser now, knowing the things I don’t know. 
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

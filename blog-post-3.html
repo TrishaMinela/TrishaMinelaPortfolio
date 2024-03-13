@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+        body {
+            line-height: 1.6;
+        }
+
+        section p {
+            margin-bottom: 25px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 30%;
+            max-width: 50%;
+            height: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="static-nav">
+        <div class="logo">Trisha Minela</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Trisha Minela</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="index.html#blog" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <p class="section-text-p1"> Blog Post 3 </p>
+        <h1 class="title">Getting Inducted to Phi Kappa Phi</h1>
+        <div class="image-container">
+            <img src="./blog/31.png" alt="Image 1">
+            <img src="./blog/32.png" alt="Image 2">
+            <img src="./blog/33.png" alt="Image 3">
+        </div>
+        <div class="text-container">
+            <p>
+                ‘"Isang kahig, isang tuka" or "one scratch, one peck" is a Filipino saying portraying poverty. A chicken scratches the dirt to eat one worm at a time, meaning people only get to eat as they earn. Our thinking can quickly create this scarcity mindset. When I get past temporal substance, is when I transcend to a greater understanding of how one can survive and achieve more in this life, where it is nor the beginning nor the end. I learned to improve my learning capabilities where I won't be burdened by the scarcity of knowledge in my day-to-day life.
+
+            </p>
+            <p>I was raised to be studious and to value knowledge. From a young age, it was a habit in our household to be organized and have time to study, both for secular and spiritual learning. I graduated high school in Australia at 17 and I saw my batchmates in the Philippines halfway through college (Due to the school system then in the Philippines). I entered a period of my life where I felt poor because I was not having the same opportunity as them. At 17 years of age, I had to get through the scarcity mentality. I was just getting through the day as the day went on but not to the extent of progression that I could attain. I served a full time mission for the church of Jesus Christ of Latter Day Saints, it was a huge blessing in my life. I returned at the age of 20, and my batchmates have graduated college. I finally learned that this is not relevant to learning and progression. These are just different timelines of different people. I knew then and there that the years I had experienced gave me the learnings I needed that I couldn't obtain any other way. I felt so rich in knowledge, wealthy in hope and faith. I rose from the poverty caused by my mentality.”
+            </p>
+            <p>
+            Today, I see that I am capable of more than I can imagine. I am proud to have been inducted into Phi Kappa Phi. I felt honoured to be accepting an award for my academic excellence. I am part of the 1300 students, faculty, staff, and alumni all around the world. This is the greatest assurance to my perseverance and motivation to continue learning. 
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
