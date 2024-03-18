@@ -10,3 +10,7 @@ function toggleMenu() {
 function openInNewTab(url) {
     window.open(url, '_blank');
 }
+
+function openInSameTab(url) {
+    window.location.href = url;
+}
