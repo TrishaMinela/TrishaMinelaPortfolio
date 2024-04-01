@@ -154,11 +154,11 @@ a:hover {
 
 /* Section */
 section {
-    height: 100vh;
     padding-top: 17vh;
     margin: 0 10%;
     box-sizing: border-box;
     min-height: fit-content;
+    padding-bottom: 80px;
 }
 
 .section-container {
@@ -377,7 +377,9 @@ article.icon {
     cursor: default;
 }
 
-
+.cert {
+    width: 30rem;
+}
 
 /* Projects */
 
