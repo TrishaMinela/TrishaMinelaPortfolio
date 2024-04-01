@@ -73,6 +73,10 @@ a:hover {
     font-size: 2rem;
 }
 
+.Logo {
+    width: 5rem;
+}
+
 .logo:hover {
     cursor: default;
 }

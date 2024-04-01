@@ -48,25 +48,25 @@
             <h1 class="title">Trisha Sumiran</h1>
             <p class="section-text-p2">Computer Science Student</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="location.href='./#Contact'">
+                <button class="btn btn-color-2" onclick="openInNewTab('https://www.linkedin.com/in/trishasumiran/')">
                     Contact Me
                 </button>
-                <button class="btn btn-color-1" onclick="window.open('./assets/resume-example.pdf')">
+                <button class="btn btn-color-1" onclick="window.open('./assets/resume.pdf')">
                     Download CV
-                    </button>
+                </button>
             </div>
             <div id="socials-container">
                 <img 
                     src="./assets/linkedin.png" 
                     alt="My LinkedIn profile" 
                     class="icon" 
-                    onclick="location.href='https://linkedin.com/'"
+                    onclick="openInNewTab('https://www.linkedin.com/in/trishasumiran/')"
                 />
                 <img 
                     src="./assets/github.png" 
                     alt="My Github profile" 
                     class="icon" 
-                    onclick="location.href='https://github.com/'"
+                    onclick="openInNewTab('https://github.com/TrishaMinela')"
                 />
             </div>
         </div>
@@ -84,6 +84,9 @@
                             class="icon"
                         />
                         <h3>Experience</h3>
+                        <a onclick="openInNewTab('https://www.byuh.edu/')">
+                            <img src="./assets/BYUHLogo.png" alt="BYUHLogo" class="Logo"/>
+                        </a>
                         <p>Computer Science <br />Research Assistant</p>
                     </div>
                     <div class="details-container">
@@ -93,6 +96,9 @@
                             class="icon"
                         />
                         <h3>Education</h3>
+                        <a onclick="openInNewTab('https://www.byuh.edu/')">
+                            <img src="./assets/BYUHLogo.png" alt="BYUHLogo" class="Logo"/>
+                        </a>
                         <p>B. Sc. Computer Science</p>
                     </div>
                 </div>
@@ -297,18 +303,21 @@
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img 
-                src="./assets/email.png"
-                alt="Email Icon"
-                class="icon contact-icon email-icon"
-            />
-            <p><a href="mailto:trisha.byu@gmail.com"></a>trisha.byu@gmail.com</p>
+                <a href="mailto:trisha.byu@gmail.com">
+                    <img 
+                    src="./assets/email.png"
+                    alt="Email Icon"
+                    class="icon contact-icon email-icon"
+                    />
+                </a>
+            <a href="mailto:trisha.byu@gmail.com">trisha.byu@gmail.com</a>
             </div>
             <div class="contact-info-container">
                 <img 
                 src="./assets/linkedin.png"
                 alt="LinkedIn Icon"
                 class="icon contact-icon"
+                onclick="openInNewTab('https://www.linkedin.com/in/trishasumiran/')"
             />
             <p><a href="https://www.linkedin.com"></a>LinkedIn</p>
             </div>
