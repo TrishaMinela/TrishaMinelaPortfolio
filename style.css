@@ -22,7 +22,8 @@ html {
 }
 
 p {
-    color: #18251F;
+    color: black;
+    font-size: larger;
 }
 
 .text-container p {
