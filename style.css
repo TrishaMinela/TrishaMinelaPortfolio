@@ -14,7 +14,15 @@ body {
     font-weight: 200;
     padding-top: 0;
     margin: 0;
-    background-color: #DDF0FF;
+}
+
+.background-image {
+    background-image: url('assets/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
 }
 
 html {
@@ -168,6 +176,9 @@ section {
 
 .section-container {
     display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 /* Icons */
