@@ -251,7 +251,6 @@ section {
     display: flex;
     background-color: rgba(85, 107, 47, 0.6);
     padding: 2rem;
-    border-radius: 1rem;
 }
 
 /* Icons */
@@ -363,11 +362,11 @@ button::before {
     content: "";
     position: absolute;
     top: 0;
-    left: -10%;
+    left: -15%;
     width: 120%;
     height: 120%;
-    background-image: url('assets/navbam.png');
-    background-size: 80% 180%;
+    background-image: url('assets/white_shell.png');
+    background-size: 65% 160%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: -1;
@@ -417,7 +416,6 @@ button::before {
     padding: 1.5rem;
     flex: 1;
     background: #c7eb81;
-    border-radius: 2rem;
     text-align: center;
 }
 
@@ -492,8 +490,7 @@ article {
 }
 
 .color-container {
-    border-color: #496F5D;
-    background-color: #DDF0FF;
+    background-color: rgba(85, 107, 47, 0.2);
 }
 
 .project-img {
@@ -525,9 +522,7 @@ article {
 .contact-info-upper-container {
     display: flex;
     justify-content: center;
-    border-radius: 2rem;
-    border: #496F5D 0.1rem solid;
-    background-color: #C2E4FF;
+    background-color: rgba(85, 107, 47, 0.2);
     margin: 2rem auto;
     padding: 0.5rem
 }
