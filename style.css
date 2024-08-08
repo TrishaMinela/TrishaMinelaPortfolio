@@ -34,7 +34,8 @@ p {
 }
 
 .text-container p {
-        margin-bottom: 25px;
+    color: white;
+    margin-bottom: 25px;
 }
 
 /* Transition */
@@ -248,7 +249,7 @@ section {
 
 .section-container {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(85, 107, 47, 0.6);
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -415,16 +416,15 @@ button::before {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: #DDF0FF;
+    background: #c7eb81;
     border-radius: 2rem;
-    border: #496F5D 0.15rem solid;
-    background-color: #C2E4FF;
     text-align: center;
 }
 
 .section-container {
     gap: 4rem;
     height: 80%;
+    margin-top: 25px;
 }
 
 
@@ -466,14 +466,20 @@ button::before {
 
 article {
     display: flex;
-    width: 10rem;
     justify-content: space-around;
-    gap: 0.5rem;
+    gap: 10px;
 }
 
-article.icon {
+.icon {
     cursor: default;
+    
 }
+
+.icons {
+    width: 80px;
+    height: 100%;
+}
+
 
 .cert {
     width: 30rem;
