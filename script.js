@@ -14,3 +14,4 @@ function openInNewTab(url) {
 function openInSameTab(url) {
     window.location.href = url;
 }
+
