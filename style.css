@@ -518,8 +518,10 @@ article {
 #contact {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    height: 70vh;
+    gap: 4rem;
+    height: 80vh;
+    margin: 0 10rem;
+    margin-bottom: 2rem;
 }
 
 .contact-info-upper-container {
