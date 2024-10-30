@@ -252,7 +252,7 @@ section {
 
 .section-container {
     display: flex;
-    background-color: rgba(85, 107, 47, 0.6);
+    background-color: rgba(113, 100, 116, 0.3);
     padding: 2rem;
 }
 
@@ -299,7 +299,7 @@ section {
 }
 
 .section-background {
-    background-color: rgba(85, 107, 47, 0.3);
+    background-color: rgba(113, 100, 116, 0.3);
     display: inline-block;
     padding: 5%;
     max-width: fit-content;
@@ -421,7 +421,7 @@ button::before {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: #c7eb81;
+    background: #cddff4;
     text-align: center;
 }
 
@@ -447,7 +447,7 @@ button::before {
 }
 
 .experience-sub-title {
-    color: #496F5D;
+    color: white;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -499,7 +499,7 @@ article {
 }
 
 .color-container {
-    background-color: rgba(85, 107, 47, 0.2);
+    background-color: rgba(113, 100, 116, 0.3);
 }
 
 .project-img {
@@ -521,6 +521,10 @@ article {
 
 /* Contact */
 
+.contact-intouch {
+    padding-top: 3rem;
+}
+
 #contact {
     display: flex;
     justify-content: center;
@@ -533,9 +537,8 @@ article {
 .contact-info-upper-container {
     display: flex;
     justify-content: center;
-    background-color: rgba(85, 107, 47, 0.2);
-    margin: 2rem auto;
-    padding: 0.5rem
+    /* background-color: rgba(113, 100, 116, 0.3); */
+    /* margin: 2rem auto; */
 }
 
 .contact-info-container {
@@ -592,7 +595,7 @@ footer {
 
 .blog-excerpt {
     margin: 0.5rem 1rem;
-    color: #496F5D; /* Adjust text color as needed */
+    color: white; /* Adjust text color as needed */
 }
 
 .blog-btn {
