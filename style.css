@@ -267,13 +267,14 @@ section {
     justify-content: center;
     gap: 4rem;
     height: 80vh;
-    margin: 0 10rem;
+    
     margin-bottom: 2rem;
+    max-width: 80%;
 }
 
 
 .section-pic-container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     max-width: 100%; 
@@ -281,6 +282,19 @@ section {
     margin: auto;
     flex: 1;
 }
+
+.section-pic-container h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+   
+}
+
+.section-pic-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    max-width: 80%;
+}
+
 
 .section-pic-container img {
     width: 80%;
@@ -377,7 +391,7 @@ button::before {
 }
 
 .btn:hover::before {
-    transform: scale(1.08); 
+    transform: scale(1.15); 
 }
 
 
