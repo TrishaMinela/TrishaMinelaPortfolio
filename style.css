@@ -34,7 +34,7 @@ p {
 }
 
 .text-container p {
-    color: white;
+    color: black;
     margin-bottom: 25px;
 }
 
@@ -324,19 +324,19 @@ section {
 
 .section-text-p1 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .section-text-p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    color: white;
+    color: black;
 }
 
 .title {
     font-size: 3rem;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #socials-container {
@@ -461,7 +461,7 @@ button::before {
 }
 
 .experience-sub-title {
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -609,7 +609,7 @@ footer {
 
 .blog-excerpt {
     margin: 0.5rem 1rem;
-    color: white; /* Adjust text color as needed */
+    color: black; /* Adjust text color as needed */
 }
 
 .blog-btn {
